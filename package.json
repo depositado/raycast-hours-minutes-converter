@@ -5,7 +5,7 @@
   "description": "Converts time from hours and minutes to decimals.",
   "icon": "depositado-icon.svg",
   "author": "ole_welling_ole_welling",
-  "owner": "depositado",
+  "owner": "raycast",
   "categories": [
     "Developer Tools"
   ],
