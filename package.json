@@ -1,9 +1,9 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "hours-minutes-converter",
-  "title": "hours:minutes converter",
-  "description": "raycast extensie \"hours:minutes\" -> decimals converter",
-  "icon": "command-icon.png",
+  "title": "Hours:Minutes Converter",
+  "description": "Converts time from hours and minutes to decimals.",
+  "icon": "depositado-icon.svg",
   "author": "ole_welling_ole_welling",
   "owner": "depositado.bldrbl",
   "categories": [
@@ -13,9 +13,16 @@
   "commands": [
     {
       "name": "index",
-      "title": "Show Detail",
-      "description": "Template with a plain detail view",
-      "mode": "view"
+      "title": "Time Convert",
+      "description": "Enter time in the format hh:mm and get the decimal equivalent.",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "time",
+          "type": "text",
+          "placeholder": "e.g., 14:45"
+        }
+      ]
     }
   ],
   "dependencies": {
